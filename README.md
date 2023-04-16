@@ -9,6 +9,7 @@ This PHP script retrieves all URLs from the sitemap(s) of a multilingual website
 The script can be customized by changing the domain and TLD, as well as the sitemap URLs for each language.
 
 ## Use it as Cron job
-0 */2 * * * path/of/php path/of/sitemap_checker.php
+`0 */2 * * * path/of/php path/of/sitemap_checker.php`
+<br>
 The sitemap_checker.php script will now be executed automatically every 2 hours.
 
